@@ -104,28 +104,25 @@ These insights support **data-driven decision-making** for stakeholders.
 ---
 
 ## 📂 Repository Structure
-data-warehouse-project/
 │
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+├── datasets/ # Raw datasets used for the project (ERP and CRM data)
 │
-├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+├── docs/ # Project documentation and architecture details
+│ ├── etl.drawio # ETL techniques and methods
+│ ├── data_architecture.drawio # Overall data architecture
+│ ├── data_catalog.md # Dataset catalog with field descriptions
+│ ├── data_flow.drawio # Data flow diagram
+│ ├── data_models.drawio # Star schema data models
+│ ├── naming-conventions.md # Naming standards for tables and columns
 │
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
+├── scripts/ # SQL scripts for ETL and transformations
+│ ├── bronze/ # Raw data ingestion scripts
+│ ├── silver/ # Data cleaning and transformation scripts
+│ ├── gold/ # Analytical and reporting models
 │
-├── tests/                              # Test scripts and quality files
+├── tests/ # Data validation and quality checks
 │
-├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
-
-
+├── README.md # Project overview and usage instructions
+├── LICENSE # License information
+├── .gitignore # Git ignored files and folders
+└── requirements.txt # Project dependencies and requirements
