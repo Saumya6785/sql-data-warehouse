@@ -104,6 +104,7 @@ These insights support **data-driven decision-making** for stakeholders.
 ---
 
 ## 📂 Repository Structure
+data-warehouse-project/
 │
 ├── datasets/ # Raw datasets used for the project (ERP and CRM data)
 │
@@ -113,7 +114,7 @@ These insights support **data-driven decision-making** for stakeholders.
 │ ├── data_catalog.md # Dataset catalog with field descriptions
 │ ├── data_flow.drawio # Data flow diagram
 │ ├── data_models.drawio # Star schema data models
-│ ├── naming-conventions.md # Naming standards for tables and columns
+│ ├── naming-conventions.md # Naming standards
 │
 ├── scripts/ # SQL scripts for ETL and transformations
 │ ├── bronze/ # Raw data ingestion scripts
@@ -126,3 +127,12 @@ These insights support **data-driven decision-making** for stakeholders.
 ├── LICENSE # License information
 ├── .gitignore # Git ignored files and folders
 └── requirements.txt # Project dependencies and requirements
+
+
+
+## 🙏 Acknowledgements & Credits
+
+- Data architecture and ETL design concepts were inspired by **Datawithbaraa**.
+- Draw.io diagrams were adapted and customized from reference visuals created by **him as well**.
+- This project is an **original implementation**, with modifications, restructuring, and enhancements made for learning and portfolio demonstration purposes.
+
