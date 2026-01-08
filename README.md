@@ -65,7 +65,7 @@ Everything used in this project is **free** ✅
 - **SQL Server Management Studio (SSMS)**: Database management and querying  
 - **GitHub**: Version control and project collaboration  
 - **Draw.io**: Data architecture, models, and ETL flow diagrams  
-- **Notion**: Project templates and structured task tracking  
+- **Notion**: Project templates and structured task tracking  (https://www.notion.so/Data-Warehouse-Project-2d8326e98b52801abb5bf91f72d03883) for this project
 
 ---
 
